@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keilyn Dinela Osorto Aguilar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #000000;
+        }
+        header {
+            background-color: #ff0000;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #000000;
+            color: #ffffff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #ffffff;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background-color: #ff0000;
+            color: #000000;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .content {
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Keilyn Dinela Osorto Aguilar</h1>
+        <p>Estudiante de BTP en Informática</p>
+    </header>
+    <nav>
+        <a href="#about">Sobre Mí</a>
+        <a href="#blog">Blog Personal</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+    <main>
+        <section id="about" class="content">
+            <h2>Sobre Mí</h2>
+            <p>Hola, soy Keilyn Dinela Osorto Aguilar, estudiante de BTP en Informática. Me apasiona la tecnología y estoy constantemente aprendiendo y desarrollando nuevas habilidades en este campo.<br> Me gusta el fútbol</p>
+        </section>
+        <section id="blog" class="content">
+            <h2>Blog Personal</h2>
+            <article>
+                <h3>Mi Primera Entrada</h3>
+                <p>Bienvenidos a mi blog personal. Aquí compartiré mis experiencias, proyectos y pensamientos sobre la informática y otros temas de interés.</p>
+            </article>
+        </section>
+        <section id="contact" class="content">
+            <h2>Contacto</h2>
+            <p>Puedes contactarme a través de los siguientes medios:</p>
+            <ul>
+                <li>Email: <a href="mailto:dinelaaguilar@gmail.com">keilyn@example.com</a></li>
+                <li>Teléfono: xxxxxxxx</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Keilyn Dinela Osorto Aguilar. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
