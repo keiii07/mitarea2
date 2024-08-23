@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gastronomía Innovadora</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+      body {
+          font-family: 'Montserrat', sans-serif;
+          background-color: #f4f4f4;
+          color: #444;
+          margin: 0;
+          padding: 0;
+          line-height: 1.6;
+      }
+      header {
+          background: #ff6f61;
+          color: white;
+          padding: 20px;
+          text-align: center;
+          position: relative;
+          box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      }
+      .logo {
+          font-size: 2.5em;
+          font-weight: 700;
+      }
+      nav {
+          margin: 20px 0;
+      }
+      nav a {
+          color: white;
+          margin: 0 15px;
+          text-decoration: none;
+          font-weight: bold;
+          transition: color 0.3s;
+      }
+      nav a:hover {
+          color: #fff3cd;
+      }
+      .container {
+          width: 90%;
+          max-width: 1200px;
+          margin: auto;
+          overflow: hidden;
+      }
+      .hero {
+          background-image: url('https://source.unsplash.com/1600x600/?gourmet,food');
+          background-size: cover;
+          color: white;
+          padding: 80px 20px;
+          text-align: center;
+          border-radius: 10px;
+          margin-bottom: 20px;
+          box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+      }
+      .hero h1 {
+          font-size: 3em;
+      }
+      .hero p {
+          font-size: 1.5em;
+      }
+      .card {
+          background: white;
+          border-radius: 10px;
+          padding: 20px;
+          margin: 20px 0;
+          box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+          transition: transform 0.3s;
+      }
+      .card:hover {
+          transform: translateY(-5px);
+      }
+      footer {
+          text-align: center;
+          padding: 15px;
+          background-color: #444;
+          color: white;
+          position: relative;
+          bottom: 0;
+          width: 100%;
+      }
+      .grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+          gap: 20px;
+      }
+      .recipe {
+          background: #f8f9fa;
+          border-radius: 8px;
+          padding: 15px;
+          text-align: center;
+          transition: transform 0.3s;
+      }
+      .recipe img {
+          width: 100%;
+          border-radius: 8px;
+      }
+      .recipe:hover {
+          transform: scale(1.05);
+      }
+  </style>
+</head>
+<body>
+  <header>
+      <div class="logo">Gastronomía Innovadora</div>
+      <nav>
+          <a href="#inicio">Inicio</a>
+          <a href="#recetas">Recetas</a>
+          <a href="#blog">Blog</a>
+          <a href="#contacto">Contacto</a>
+      </nav>
+  </header>
+  <div class="container">
+      <section class="hero">
+          <h1>Explora el Mundo de los Sabores</h1>
+          <p>Recetas únicas y consejos para los amantes de la cocina.</p>
+      </section>
+      <section id="recetas">
+          <h2>Recetas Destacadas</h2>
+          <div class="grid">
+              <div class="recipe">
+                  <img src="https://source.unsplash.com/300x200/?paella" alt="Paella Valenciana">
+                  <h3>Paella Valenciana</h3>
+                  <p>Una explosión de sabores en cada bocado.</p>
+              </div>
+              <div class="recipe">
+                  <img src="https://source.unsplash.com/300x200/?tacos" alt="Tacos al Pastor">
+                  <h3>Tacos al Pastor</h3>
+                  <p>Tradición mexicana en cada tortilla.</p>
+              </div>
+              <div class="recipe">
+                  <img src="https://source.unsplash.com/300x200/?lasagna" alt="Lasagna Clásica">
+                  <h3>Lasagna Clásica</h3>
+                  <p>El confort de la cocina italiana.</p>
+              </div>
+          </div>
+      </section>
+      <section id="blog">
+          <div class="card">
+              <h2>Últimos Artículos del Blog</h2>
+              <ul>
+                  <li><a href="#">Cómo cocinar como un chef profesional</a></li>
+                  <li><a href="#">Los mejores utensilios de cocina para principiantes</a></li>
+                  <li><a href="#">Tendencias de cocina en 2024</a></li>
+              </ul>
+          </div>
+      </section>
+      <section id="contacto">
+          <div class="card">
+              <h2>Contacto</h2>
+              <p>¿Tienes preguntas? Escríbenos a: <a href="mailto:info@gastronomiainnovadora.com">info@gastronomiainnovadora.com</a></p>
+          </div>
+      </section>
+  </div>
+  <footer>
+      <p>&copy; 2024 Gastronomía Innovadora. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
