@@ -150,12 +150,12 @@
       <section id="contacto">
           <div class="card">
               <h2>Contacto</h2>
-              <p>¿Tienes preguntas? Escríbenos a: <a href="mailto:info@gastronomiainnovadora.com">info@gastronomiainnovadora.com</a></p>
+              <p>¿Tienes preguntas? Escríbenos a: <a href="info@gastronomiainnovadora.com">info@gastronomiainnovadora.com</a></p>
           </div>
       </section>
   </div>
   <footer>
-      <p>&copy; 2024 Gastronomía Innovadora. Todos los derechos reservados.</p>
+      <p>&copy; 2024 Keilyn Osorto & Angie Norales. Todos los derechos reservados.</p>
   </footer>
 </body>
 </html>
